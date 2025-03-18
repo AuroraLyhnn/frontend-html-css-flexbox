@@ -69,7 +69,8 @@ li {
     gap: 40px;
 }
 
-#buttons {
+#buttons,
+#buttons2{
     gap: 10px;
 }
 
