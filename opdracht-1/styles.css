@@ -1,0 +1,76 @@
+li {
+    list-style-type: none;
+}
+
+.navbar-one ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-two ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: flex-end;
+}
+
+.navbar-three {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-three div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.navbar-three ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: flex-end;
+}
+
+.navbar-four {
+    display: flex;
+
+}
+.navbar-four div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.navbar-four ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.navbar-four-logo {
+    flex-grow: 1
+}
+.navbar-four-pages {
+    flex-grow: 12
+}
+
+.navbar-five {
+    display: flex;
+    justify-content: space-between;
+
+}
+.navbar-five div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.navbar-five ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#buttons,
+#buttons2{
+    gap: 10px;
+}
+
