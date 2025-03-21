@@ -1,0 +1,172 @@
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Navigation
+    4. Web Page Content
+     Media Queries
+////////////////////////////////////////////////////////////////////////*/
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100%
+}
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+
+.nav-bar {
+    font-size: 18px;
+    font-weight: bold;
+    color: #383838
+}
+
+/*////////////////////////
+     3. Navigation
+////////////////////////*/
+
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #f3f3f3;
+    flex-basis: 250px;
+    flex-grow: 1;
+    height: 100%;
+    padding: 20px;
+    gap: 26px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-bar-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0;
+    border-right: none;
+}
+
+.nav-bar li {
+    list-style-type: none;
+}
+
+.nav-bar a {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    gap: 15px;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-color: #383838;
+}
+
+.account-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sign-up {
+    background-color: white;
+}
+
+.login {
+    background-color: #383838;
+    color: white;
+}
+
+/*////////////////////////
+   4.  Web page content
+////////////////////////*/
+
+.web-page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 300px;
+    flex-grow: 6;
+    overflow-y: scroll;
+}
+
+header {
+    text-align: center;
+    background-image: url("/assets/placeholder-image.svg");
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 15px;
+    padding: 50px;
+
+}
+
+.articles article {
+    flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.articles div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.article-img img {
+    width: 100%;
+    height: auto;
+}
+.article-img {
+    flex-basis: 20px;
+}
+
+.article-sign-up {
+    background-color: #383838;
+    color: white;
+
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #383838;
+    color: white;
+    font-size: 10px;
+}
+
+/*////////////////////////
+     Media Queries
+////////////////////////*/
